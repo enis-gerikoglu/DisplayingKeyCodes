@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    height: 100vh;
+   align-items: center;
+    justify-content: center;
+    background-color: #e1e1e1;
+}
+.insert{
+    width: 55vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.key{
+    border: 1px;
+    background-color: #eee;
+    border-style: solid;
+    display: inline-flex;
+    min-width: 150px;
+    font-size: 20px;
+    padding: 20px;
+    flex-direction: column;
+    margin: 10px;
+    position: relative;
+    font-weight: bold;
+}
+.key small{
+    position: absolute;
+    top: -25px;
+    left: 0;
+   
+   width: 100%;
+   text-align: center;
+   color: #555;
+   font-size: 14px;
+}
